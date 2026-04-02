@@ -1,2 +1,2 @@
-wget link
+wget link    
 cat file.txt
