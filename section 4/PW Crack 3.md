@@ -1,8 +1,8 @@
 two ways  
 1:  
-wget <pylink>    
-wget <hashlink>    
-wget <flaglink>    
+wget <link>    
+wget <link>    
+wget <link>    
 $bvi level3.hash.bin  
 copy "E1 6D 55 A5 5D 80 DD DD 52 A8 3E AB EA 57 2B 7B"  
 type :q to leave  
