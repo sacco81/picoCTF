@@ -1,2 +1,2 @@
-wget <link>         
-strings <file> | grep 'pico' 
+wget link        
+strings file | grep 'pico' 
