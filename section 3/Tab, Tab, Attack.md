@@ -1,4 +1,4 @@
-wget <file>  
+wget file   
 unzip file  
 replace all file(enter A  
 cd A(tab*11times  
