@@ -14,6 +14,7 @@ $nano level5.py
             if user_pw_hash == correct_pw_hash:  
                 print("Found:", user_pw)  
                 decryption = str_xor(flag_enc.decode(), user_pw)  
-                print(decryption) ```
+                print(decryption)
+```
 
  $python level5.py
