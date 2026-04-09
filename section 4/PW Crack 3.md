@@ -10,7 +10,9 @@ $nano level3.py
 edit level_3_pw_check() into #level_3_pw_check() (in this way it won't ask for the pw  
 add following codes:  
   (1)  
-  target = bytes.fromhex("E1 6D 55 A5 5D 80 DD DD 52 A8 3E AB EA 57 2B 7B")  
+```py
+
+ target = bytes.fromhex("E1 6D 55 A5 5D 80 DD DD 52 A8 3E AB EA 57 2B 7B")  
   
   for pw in pos_pw_list:  
     if hash_pw(pw) == target:  
@@ -21,7 +23,8 @@ add following codes:
   for pw in pos_pw_list:  
     if hash_pw(pw) == correct_pw_hash:  
         print("Correct password:", pw)  
-        print("Flag:", str_xor(flag_enc.decode(), pw))  
+        print("Flag:", str_xor(flag_enc.decode(), pw))
+```
 ctrl+x  
 y  
 enter  
