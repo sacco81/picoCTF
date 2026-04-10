@@ -49,6 +49,8 @@ remember the number:45362718
 ``` 
 ctrl+X    
 $python    
->>>import hashlib; h=hashlib.sha256(b'BENNETT').hexdigest();print(h[4]+h[5]+h[3]+h[6]+h[2]+h[7]+h[1]+h[8])   
+```py
+import hashlib; h=hashlib.sha256(b'BENNETT').hexdigest();print(h[4]+h[5]+h[3]+h[6]+h[2]+h[7]+h[1]+h[8])   
+```
 08c46aa4   
 flag: picoCTF{1n_7h3_kk3y_of_08c46aa4}    
